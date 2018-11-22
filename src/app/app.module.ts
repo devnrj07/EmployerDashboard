@@ -12,7 +12,7 @@ import { ShortListedCandidatesComponent } from './short-listed-candidates/short-
 import { AccountDetailsComponent } from './account-details/account-details.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { ReactiveFormsModule, FormsModule } from '@angular/forms';
-import {MatCardModule, MatMenuModule, MatIconModule, MatButtonModule, MatInputModule, MatDatepickerModule, MatNativeDateModule, MatSelectModule, MatAutocompleteModule} from '@angular/material';
+import {MatCardModule, MatMenuModule, MatIconModule, MatButtonModule, MatInputModule, MatDatepickerModule, MatNativeDateModule, MatSelectModule, MatAutocompleteModule, MatTableModule} from '@angular/material';
 @NgModule({
   declarations: [
     AppComponent,
@@ -38,7 +38,8 @@ import {MatCardModule, MatMenuModule, MatIconModule, MatButtonModule, MatInputMo
     MatDatepickerModule,
     MatNativeDateModule,
     MatSelectModule,
-    MatAutocompleteModule
+    MatAutocompleteModule,
+    MatTableModule
     
 
   ],
